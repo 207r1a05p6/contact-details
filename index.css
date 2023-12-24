@@ -1,0 +1,44 @@
+body,html{
+    height: 100%;
+    font-style: Arial,Helvetica,sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+#contact1-id{
+  background-image: url(christmas-special-4480x2520-13234.jpg);
+   height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 380px;
+  background-position: center;
+}
+.container {
+    position: absolute;
+    right: 80px;
+    margin: 30px;
+    /* max-width: 300px;
+    padding: 16px;  */
+    padding-top: 10px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    padding-left:20px ;
+    background-color: rgb(245, 191, 202);
+    border-radius: 10px;
+  }
+  .container button{
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #04AA6D;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container button:hover{
+    opacity: 1;
+  }
